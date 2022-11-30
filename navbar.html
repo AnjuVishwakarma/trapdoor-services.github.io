@@ -1,0 +1,926 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&amp;display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/dlicon.css">
+
+    <!-- Plugins CSS (All Plugins Files) -->
+
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/odometer-theme-default.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/ddbeforeandafter.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/6a6c2d1f6b.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+
+<div class="incontractor-navbar-section">
+        <nav class="navbar bg-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <button class="navbar-toggler" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button></a>
+
+
+                <img src="assets/images/logo/logo12.png" alt="" width="100">
+                <i class="enail3 fa-solid fa-envelope"></i>
+                <i class="whatsapp3 me-5 fa-brands fa-whatsapp"></i>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="assets/images/logo/logo12.png"
+                                alt="" width="100"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ps-5">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                   <!-- Edit Profile modal -->
+                        <li class="nav-item">
+<button type="button" class="edit-profile1" data-bs-toggle="modal" data-bs-target="#exampleModal22">
+<a class="edit-profile1" aria-current="page" href="#"><img
+                                        src="assets/images/logo/edit-profile.png" alt="" width="40"> <b>Edit Profile</b> </a>
+</button>
+<!-- Modal -->
+<div class="edit-profile-btn text-center mt-3">
+<div class="modal fade" id="exampleModal22" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Edit Profile </h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h6 class="form-label-box  text-start  ps-5 pb-3">
+                                                    <span>Name:</span><span> Shubham mishra</span></h6>
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Photo </b></label>
+                                                    <input type="file" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>Team Member</b></label>
+                                                    <input type="number" name="" id="" class="form-control" required />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>Experience</b></label>
+                                                    <input type="number" name="" id="" class="form-control " required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Address</b></label>
+                                                    <input type="text" name="" id="" class="form-control p-5"
+                                                        required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+</div>
+                            </li>
+                            
+
+   <!--  Message modal -->
+                            <li class="nav-item">
+   <button type="button" class="edit-profile1" data-bs-toggle="modal" data-bs-target="#exampleModal23">
+   <a class="edit-profile1" aria-current="page" href="#"><img
+                                        src="assets/images/logo/message-icon.png" alt="" width="40"> <b>Messages</b></a> 
+</button>
+   <!-- Modal -->
+   <div class="edit-profile-btn text-center mt-3">
+   <div class="modal fade" id="exampleModal23" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Messages</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h6 class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Project Name: </b></span><span> Real
+                                                        time mall</span></h6>
+                                                <h6 class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Project Code: </b></span><span>
+                                                        gqsmi3tder</span></h6>
+                                                <h6 class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Message: </b></span><span> Lorem Ipsum
+                                                        is simply dummy text of the printing and typesetting industry.
+                                                        Lorem Ipsum has been
+                                                    </span></h6>
+
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Image</b></label>
+                                                    <input type="file" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Messages</b></label>
+                                                    <input type="text" name="" id="" class="form-control p-5"
+                                                        required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+</div>            
+                                    </li>
+
+
+ <!-- Account modal -->
+                            <li class="nav-item">
+     <button type="button" class="edit-profile1" data-bs-toggle="modal" data-bs-target="#exampleModal24">
+     <a class="edit-profile1" aria-current="page" href="#"><img
+                                        src="assets/images/logo/account.png" alt="" width="40"> <b>Account </b></a> 
+</button>
+     <!-- Modal -->
+     <div class="edit-profile-btn text-center mt-3">
+     <div class="modal fade" id="exampleModal24" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Account Info </h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Account Holder
+                                                            Name</b></label>
+                                                    <input type="text" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>IFSC Code</b></label>
+                                                    <input type="text" name="" id="" class="form-control" required />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>Account Number</b></label>
+                                                    <input type="text" name="" id="" class="form-control" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Bank Passbook
+                                                            Photo</b></label>
+                                                    <input type="file" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                            </li>
+
+
+ <!-- Refer & Earn modal -->
+                            <li class="nav-item">
+     <button type="button" class="edit-profile1" data-bs-toggle="modal" data-bs-target="#exampleModal25">
+     <a class="edit-profile1" aria-current="page" href="#"><img
+                                        src="assets/images/logo/refer-earn.png" alt="" width="40"> <b>Refer &
+                                        Earn</b></a>
+</button>
+      <!-- Modal -->
+      <div class="edit-profile-btn text-center mt-3">
+<div class="modal fade" id="exampleModal25" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                         
+                                <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Refer & Earn </h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                    
+<div class="refer-earn-image  ps-5  pe-5 pb-3  text-start">
+<img src="assets/images/project/refer-&-earn1.png" alt="">
+</div>
+
+                                            </div>
+                                        </div>
+                               
+                                        <div class="row">
+                                            <div class="col-12">
+                
+                                                <h4 class="mpd6 text-start ps-5 ">Refer & Earn </h4>
+<p class="para ps-5  pe-5 pt-2"> <span><b>Thank you for joining our team, we would request you to also share with othor friend so that our trapdoor contactor team can be grow more and</b> </span><span class="you-can-earn"><b>You can earn 500 RS - 800 RS daily by sharing to your friends </b></span></p> 
+                           
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="invite-friend-btn m-3"><b>Invite Friend <i class="fa-solid fa-share"></i></b></button></a>
+
+                             
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+</div>
+ </li>
+
+
+    <!-- Help support modal -->
+                            <li class="nav-item">
+     <button type="button" class="edit-profile1" data-bs-toggle="modal" data-bs-target="#exampleModal26">
+     <a class="edit-profile1" aria-current="page" href="#"><img
+                                        src="assets/images/logo/help-support-icon.png" alt="" width="40"> <b>Help
+                                        Support</b></a> 
+</button>
+        <!-- Modal -->
+        <div class="edit-profile-btn text-center mt-3">
+<div class="modal fade" id="exampleModal26" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            
+                                       <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Help Support </h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+ 
+                                                <div class="refer-earn-image  ps-5  pe-5 pb-3  text-start">
+<img src="assets/images/project/help-support1.png" alt="">
+</div>
+                                            </div>
+                                        </div>
+                                   
+                                        <div class="row">
+                                            <div class="col-12">
+                               
+                                                <h4 class="mpd6 text-start ps-5 ">Help Support</h4>
+                                                <p class="para ps-5  pe-5 pt-2"><b>Thank you for visiting the page, we will try our best to solve your problem option given below </b></p>
+                                                <p class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Call Us - </b></span><span>9930600837</span></p>
+                                                <p class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Whatsapp -</b></span><span>
+                                                        8080123469</span></p>
+                                                        <p class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Mail Id-</b></span><span>
+                                                        trapdoorservices@gmail.com</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+<h6 class="Connect-with-our-team m-4">Connect with our team and get help</h6>
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+</div>
+ </li>
+
+
+ <!-- Training Video modal -->
+                            <li class="nav-item">
+     <button type="button" class="edit-profile1" data-bs-toggle="modal" data-bs-target="#exampleModal27">
+     <a class="edit-profile1" aria-current="page" href="#"><img
+                                        src="assets/images/logo/training-video.png" alt="" width="40"> <b>Training
+                                        Video</b></a>
+</button>
+  <!-- Modal -->
+  <div class="edit-profile-btn text-center mt-3">
+<div class="modal fade" id="exampleModal27" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Training Video</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+    
+
+<div class="video-section">
+<video width="100%" height="250" controls>
+  <source src="assets/video/video.mp4" type="video/mp4">
+</video>
+</div>
+
+
+                                            </div>
+                                        </div>
+                           
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                        <a href=""><button class="submit-btn1 m-3"><b>cancel</b></button></a>
+
+                                        
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+</div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="client-login-navbar-mainbox anju-center pb-5">
+            <div class="client-login-navbar-innerbox mt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="navbar-profile-box text-center">
+                            <img src="assets/images/logo/profile-icon.png" alt="" width="100">
+                            <h3>Shubham Mishra</h3>
+                            <h5>Painter</h5>
+
+                            <span><b>Profile Rating</b></span> <span class="star-icon"><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i> </span><span class="star-icon2"><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> </span>
+                            <p class="vikaroli mt-2">vikaroli marol pipe line andheri east - 400039</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-4 mt-3">
+                        <div class="team-members text-center p-2">
+                            <h6>Team Members</h6>
+                            <h6 class="number-ten">10</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-4 mt-3">
+                        <div class="team-members text-center p-2">
+                            <h6>Registration Date
+                            </h6>
+                            <h6 class="number-ten">11 sep 2022</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-4 mt-3">
+                        <div class="team-members text-center p-2">
+                            <h6>ID Number </h6>
+                            <h6 class="number-ten">4</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center mt-4">
+                        <div class="btn-group">
+                            <a href="#" class="btn-btn-primary-recommendation active"
+                                aria-current="page">Recommendation</a>
+                            <a href="#" class="btn-btn-primary-recommendation">Referral other contactor </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="check-your-details  mt-4 text-center">
+                            <h5>Check your details</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-4  text-center">
+
+                        <button type="button" class="payment-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@mdo">Payment </button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog  modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="my-payment-detail">
+                                        <div class="arrow-button text-start ms-4">
+                                            <button type="button" class="btn-btn-secondary-arrow "
+                                                data-bs-dismiss="modal">&#8678;</button>
+                                        </div>
+                                        <h4 class="mpd pb-2">My Payment Details</h4>
+                                    </div>
+                                    <div class="my-payment-details me-5 ms-5">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="real-time-mall text-center p-2">
+                                                    <h6>Real time mall</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="real-time-mall text-center p-2">
+                                                    <h6>35000/-</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="real-time-mall text-center p-2">
+                                                    <h6 class="pending">Pending</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="my-payment-details1 text-start me-5 ms-5 mb-5">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="view-details2 ms-4 mt-3 pb-3">
+                                                    <h6 class="mpd">View details</h6>
+                                                    <span><b>Contractor Name :</b></span><span> Suraj kumar</span><br>
+                                                    <span><b>Start Date :</b></span><span> 30/10/2022</span><br>
+                                                    <span><b>End Date :</b></span><span> 12/11/2022</span><br>
+                                                    <span><b>Team Member :</b></span><span> 8</span><br>
+                                                    <span><b>Payment Status :</b></span><span class="pending">
+                                                        Pending</span><br>
+                                                    <span>10/10/2022 – RS. 10000/-</span><span
+                                                        class="complete1">Complete</span><br>
+                                                    <span>25/05/2023 – RS. 15000/-</span><span
+                                                        class="complete1">Complete</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box mt-2 text-center">
+                            <h6>PROJECT </h6>
+                            <h6>00 </h6>
+                        </div>
+                    </div>
+
+                    <div class=" col-4  text-center">
+
+                        <button type="button" class="payment-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1"
+                            data-bs-whatever="@mdo">Project </button>
+
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="my-payment-detail">
+                                        <div class="arrow-button text-start ms-4">
+                                            <button type="button" class="btn-btn-secondary-arrow "
+                                                data-bs-dismiss="modal">&#8678;</button>
+                                        </div>
+                                        <h4 class="mpd pb-2">My Project Details</h4>
+                                    </div>
+                                    <div class="my-payment-details1 me-5 ms-5">
+
+                                    </div>
+                                    <div class="my-payment-details1 text-start me-5 ms-5 mb-5">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="view-details2 ms-4 mt-3 pb-3">
+                                                    <span><b>Project Name :</b></span><span class="mpd"> Real time
+                                                        mall</span><br>
+                                                    <span><b>Manager :</b></span><span class="mpd"> Abhijeet
+                                                        Jena</span><br>
+                                                    <span><b>Address :</b></span><span class="mpd"> Mumbai</span><br>
+                                                    <span><b>Start Date :</b></span><span class="mpd">
+                                                        30/10/2022</span><br>
+                                                    <span><b>End Date :</b></span><span class="mpd">
+                                                        12/11/2022</span><br>
+                                                    <span><b>Work :</b></span><span class="mpd"> insulation
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="view-details2  text-center ms-4 mt-3 pb-3">
+                                                    <h3 class="rtm ">Real time mall</h3>
+                                                    <span class="star-icon"><i class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i><i
+                                                            class="fa-solid fa-star"></i> </span>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box mt-2 text-center">
+                            <h6>REFFERAL</h6>
+                            <h6>00 </h6>
+                        </div>
+                    </div>
+
+                    <div class=" col-4  text-center">
+
+                        <button type="button" class="payment-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                            data-bs-whatever="@mdo">Referral point </button>
+
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog  modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+
+                                    <div class="my-payment-detail">
+                                        <div class="arrow-button text-start ms-4">
+                                            <button type="button" class="btn-btn-secondary-arrow "
+                                                data-bs-dismiss="modal">&#8678;</button>
+                                        </div>
+                                        <h4 class="mpd pb-2">My Referral Point </h4>
+                                    </div>
+                                    <div class="my-payment-details1 me-5 ms-5">
+
+                                    </div>
+                                    <div class="my-payment-details1 text-start me-5 ms-5 mb-5">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="view-details2 p-3 text-center">
+
+                                                    <h3>Thank You for Sharing our link to vendor. <br>
+                                                        Your referral point is 0 PRP<h3>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-box mt-2 text-center">
+                            <h6>EXPERENCE</h6>
+                            <h6>00 </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4  text-center mt-3">
+                        <div class="edit-profile-btn">
+
+                            <button type="button" class="edit-profile-button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal-edit-profile" data-bs-whatever="@mdo"><img src="assets/images/logo/edit-removebg.png" alt="" width="40">Edit Profile </button>
+                            <div class="modal fade" id="exampleModal-edit-profile" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Edit Profile </h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h6 class="form-label-box  text-start  ps-5 pb-3">
+                                                    <span>Name:</span><span> Shubham mishra</span></h6>
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Photo </b></label>
+                                                    <input type="file" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>Team Member</b></label>
+                                                    <input type="number" name="" id="" class="form-control" required />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>Experience</b></label>
+                                                    <input type="number" name="" id="" class="form-control " required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Address</b></label>
+                                                    <input type="text" name="" id="" class="form-control p-5"
+                                                        required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-4  text-center mt-3">
+                        <div class="edit-profile-btn">
+                            <button type="button" class="edit-profile-button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal-message" data-bs-whatever="@mdo"><img
+                                    src="assets/images/logo/msg.png" alt="" width="40">Messages</button>
+                            <div class="modal fade" id="exampleModal-message" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Messages</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h6 class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Project Name: </b></span><span> Real
+                                                        time mall</span></h6>
+                                                <h6 class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Project Code: </b></span><span>
+                                                        gqsmi3tder</span></h6>
+                                                <h6 class="form-label-box2  text-start  ps-5 pb-1"><span
+                                                        class="form-label-box"><b>Message: </b></span><span> Lorem Ipsum
+                                                        is simply dummy text of the printing and typesetting industry.
+                                                        Lorem Ipsum has been
+                                                    </span></h6>
+
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Image</b></label>
+                                                    <input type="file" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Messages</b></label>
+                                                    <input type="text" name="" id="" class="form-control p-5"
+                                                        required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+
+
+
+
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4  text-center mt-3">
+                        <div class="edit-profile-btn">
+                            <button type="button" class="edit-profile-button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal-account" data-bs-whatever="@mdo"><img src="assets/images/logo/acunt.png" alt="" width="40">Account</button>
+                            <div class="modal fade" id="exampleModal-account" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+
+
+                                        <div class="my-payment-detail">
+                                            <div class="arrow-button text-start ms-4">
+                                                <button type="button" class="btn-btn-secondary-arrow "
+                                                    data-bs-dismiss="modal">&#8678;</button>
+                                            </div>
+                                            <h4 class="mpd2 pb-2">Account Info </h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Account Holder
+                                                            Name</b></label>
+                                                    <input type="text" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>IFSC Code</b></label>
+                                                    <input type="text" name="" id="" class="form-control" required />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-box1 ps-5  pe-5 pb-3 text-start">
+                                                    <label for="" class="form-label-box"><b>Account Number</b></label>
+                                                    <input type="text" name="" id="" class="form-control" required />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="input-box1  ps-5  pe-5 pb-3  text-start">
+                                                    <label for="" class="form-label-box"><b>Bank Passbook
+                                                            Photo</b></label>
+                                                    <input type="file" name="" id="" class="form-control" required />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="cancel-submit-btn pb-5 text-center">
+
+                                            <a href=""><button class="cancel-btn m-3"><b>Cancel</b></button></a>
+
+                                            <a href=""><button class="submit-btn1 m-3"><b>Submit</b></button></a>
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+ <!-- Vendors JS -->
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+<script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
+<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+<!-- Plugins JS -->
+<script src="assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="assets/js/plugins/hoverparallax.min.js"></script>
+<script src="assets/js/plugins/scrollup.js"></script>
+<script src="assets/js/plugins/odometer.min.js"></script>
+<script src="assets/js/plugins/ddbeforeandafter.js"></script>
+<script src="assets/js/plugins/magnific-popup.js"></script>
+<script src="assets/js/plugins/imagesloaded.js"></script>
+<script src="assets/js/plugins/isotope.js"></script>
+<script src="assets/js/plugins/aos.js"></script>
+<script src="assets/js/plugins/sticky-sidebar.js"></script>
+<script src="assets/js/plugins/ajax-mail.js"></script>
+
+<!-- Activation JS -->
+<script src="assets/js/main.js"></script>
+
+<script src="assets/js/costum.js"></script>
+</body>
+</html>
